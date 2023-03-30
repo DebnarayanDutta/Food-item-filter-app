@@ -1,0 +1,123 @@
+.main-div {
+    background-size: cover;
+    background-position: center;
+    color: #e42a2a;
+    padding: 2rem;
+    background-color: rgba(127, 181, 228, 0.685);
+    box-sizing: border-box;
+    width: 1550px;
+  }
+  
+  .category-btn {
+    background-color: #a0db0a;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .category-btn:hover {
+    background-color: #333;
+    color: #ec2e2e;
+    transform: translateY(-0.25rem);
+  }
+  
+  .item-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    width: 200px;
+    height: 400px;
+    background-color: #a0db0a;
+    margin-left: 70px;
+    position: relative;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+  }
+  
+  .img-div {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 10px;
+    
+  }
+  .img{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+  
+  }
+  
+  .info-div {
+    width: 200px;
+    height: 175px ;
+    padding: 0rem;
+    background-color: rgba(49, 9, 68, 0.8);
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 10px;
+  }
+  
+  .info-div h1 {
+    font-size: 1rem;
+    
+    position: absolute;
+    left: 20px;
+    
+  }
+  
+  .info-div p {
+    font-size: 1rem;
+    margin-bottom: 0rem;
+    position: absolute;
+    bottom: 70px;
+    left: 15px;
+    font-size: 15px;
+  }
+  
+  .price {
+    font-size: 1rem;
+    margin-right: 0rem;
+    position: absolute;
+    bottom: 45px;
+    left: 15px;
+    color: #fff;
+  }
+  
+  .order-btn {
+    display: inline-block;
+    margin-top: 0rem;
+    transform: translateY(0);
+    transition: all 0.3s ease;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .order-btn button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .order-btn button:hover {
+    background-color: #fff;
+    color: #333;
+    transform: translateY(-0.25rem);
+  }
+  
+  .order-btn button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #333;
+  }
+
+  
+  
